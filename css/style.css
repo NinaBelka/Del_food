@@ -569,11 +569,19 @@ body {
   }
 
   .modal-dialog {
-    padding: 20px 25px;
+    padding: 10px 15px;
   }
 
   .modal-title {
     font-size: 18px;
+  }
+
+  .modal-header {
+    margin-bottom: 20px;
+  }
+
+  .modal-body {
+    margin-bottom: 20px;
   }
 
   .food-name {
@@ -612,6 +620,5 @@ body {
     font-size: 12px;
     line-height: 18px;
     padding: 8px;
-
   }
 }

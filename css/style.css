@@ -314,6 +314,7 @@ body {
 .is-open {
   display: flex;
 }
+
 .modal-dialog {
   max-width: 780px;
   width: 95%;
@@ -329,6 +330,7 @@ body {
   justify-content: space-between;
   margin-bottom: 45px;
 }
+
 .modal-title {
   margin: 0;
   font-weight: bold;
@@ -370,10 +372,12 @@ body {
   font-size: 20px;
   line-height: 32px;
 }
+
 .food-counter {
   display: flex;
   align-items: center;
 }
+
 .counter-button {
   display: flex;
   align-items: center;
@@ -562,5 +566,52 @@ body {
 
   .footer-link:not(:last-child) {
     padding-right: 0;
+  }
+
+  .modal-dialog {
+    padding: 20px 25px;
+  }
+
+  .modal-title {
+    font-size: 18px;
+  }
+
+  .food-name {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .food-price {
+    font-size: 12px;
+    line-height: 24px;
+    margin-right: 10px;
+  }
+
+  .counter-button {
+    width: 22px;
+    height: 18px;
+  }
+
+  .counter {
+    margin: 0 4px;
+  }
+
+  .modal-pricetag {
+    font-size: 10px;
+    line-height: 18px;
+    padding: 10px 15px;
+  }
+
+  .footer-buttons .button-primary {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 8px;
+  }
+
+  .footer-buttons .button {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 8px;
+
   }
 }
